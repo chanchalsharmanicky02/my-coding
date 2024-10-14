@@ -3,91 +3,165 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>gdf skills</title>
+  <title>Protfolio</title>
 </head>
-<body>
- <div style="background-color: aqua;">
-  <h1>GDF <br>skills</h1>
-  <div style="background-color:gray;">
-   <ul>Calls us on <br>9136588654</ul>
-   <ul>Email us on <br>gdf@256698536gmil.com</ul>
-   <ul></ul>
-   <ul></ul>
-   <ul></ul>
-   <ul></ul>
-   <ul></ul>
-   <ul>wHATSAPP</ul>
-  </div>
-  <div>
-      <li>Home</li>
-      <li>courses</li>
-      <li>student zone</li>
-      <li>online free payment</li>
-      <li>scholarship</li>
-      <li>free job training</li>
-      <li>blogs</li>
-      <li>login</li>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(71, 36, 104);
+    color: azure;
+  }
+  #header{
+    height: 100%;
+    width: 100vh;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+  }
+  .container{
+    padding: 10px 10%;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .logo{
+    width: 140px;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  nav ul li a{
+    color: beige;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+  }
+  nav ul li a ::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: rgb(238, 187, 238);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  nav ul li a :hover::after{
+    width: 100%;
+  }
+  .header-text{
+    margin-top: 20%;
+    font-size: 30px;
+  }
+  .header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+  }
+  .header-text h1 span{
+    color: rgb(248, 136, 136);
+  }
+  /* ---------about---------------- */
 
+  #about{
+    padding: 80px 0px;
+    color: rgb(89, 117, 60);
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-col-1{
+    flex-basis: 35%;
+  }
+  .about-col-1 img{
+    width: 100%;
+    border-radius: 20px;
+  }
+  .about-col-2{
+    flex-basis: 60%;
+  }
+  .sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #b6b2b2;
+  }
+  .tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+  }
+  .tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+  }
+  .tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #5e8eb6;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+  }
+  .tab-links.active-link::after{
+    width: 50%;
+  }
+</style>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="" class="logo">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">Protfolio</a></li>
+          <li><a href="#">Content</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1> I am Basic web <span>Designer</span></h1>
+      </div>
     </div>
- </div>
- <div>
-  <h1>request a call back </h1>
-  <h4>submit your details and we'll be in touch shortly</h4>
-  <input type="text" id="fname" name="fname" value="frst name"><br>
-  <input type="text" id="fname" name="fname" value="Email"><br>
-  <input type="text" id="fname" name="fname" value="mobile number"><br>
-  <input type="text" id="fname" name="fname" value="prefered due to call"><br>
-  <input type="text" id="fname" name="fname" value="prefered time to call"><br>
-  <input type="submit" value="Submit">
- </div>
- <div>
-  <ul>book demo</ul>
-  <ul>admission </ul>
-  <ul>counselling</ul>
-  <ul>enqury</ul>
- </div>
- <h1>our affilliates</h1>
- <div>1</div>
- <div>2</div>
- <div>3</div>
- <div>4</div>
- <div>5</div>
- <div>6</div>
- <div>
-  <h5>aassociate panter with microsoft</h5>
-  <h5>common service centre-8685252855</h5>
-  <h5></h5>
-  <h5></h5>
-  <h5></h5>
-  <h5></h5>
- </div>
- <div>
-  <h1>best computer institute in delhi </h1>
-  <p>
-    <h1>it expert course </h1>
-    <h4>it expert course a specialized and career- focused diploma training course, the it expert training course is appropriate for 10+2 students who want to work in the web development industry </h4>
-  </p>
-  <p>
-    <h1></h1>
-    <h4></h4>
-  </p>
-  <p>
-    <h1></h1>
-    <h4></h4>
-  </p>
-  <p>
-    <h1></h1>
-    <h4></h4>
-  </p>
-  <p>
-    <h1></h1>
-    <h4></h4>
-  </p>
-  <p>
-    <h1></h1>
-    <h4></h4>
-  </p>
- </div>
+  </div>
+  <!-- --------about--------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quidem exercitationem
+             tempora facere asperiores rerum voluptates minus dolores maiores incidunt ea sed 
+             accusamus nulla, doloremque ratione cum consequuntur quos. Numquam!</p>
+             <div class="tab-titles">
+              <p class="tab-links active-link">Skills</p>
+              <p class="tab-links">Experience</p>
+              <p class="tab-links">Education</p>
+             </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
   
 </body>
 </html>
